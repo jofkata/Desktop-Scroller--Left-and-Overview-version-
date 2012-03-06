@@ -1,0 +1,7 @@
+Known issues
+============
+* Not tested on multiple monitors.
+* The one-pixel border is blocking all other non-scroll events, I cannot found
+  documentation to do properly event propagation to lower actors. Anyway the
+  actor is hidden while in overview mode and actor size is calculated to avoid
+  block panel and notification areas.
